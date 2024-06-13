@@ -31,7 +31,7 @@ class AccountHolder
 	{
 		return [
 			"legal_name" => $this->legal_name,
-			"email" => $this->email
+			"email_address" => $this->email
 		];
 	}
 }
